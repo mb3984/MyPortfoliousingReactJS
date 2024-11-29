@@ -1,0 +1,258 @@
+.about-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+  font-family: "Poppins", Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Main Content */
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 15px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Container */
+.about-image-container {
+  margin-right: 50px;
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+/* Image Styling */
+.about-image {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Text Section */
+.about-text {
+  flex: 1;
+  text-align: left;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+/* Title */
+.about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+/* Typewriter Effect */
+.typewriter {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #e74c3c;
+  margin-top: 20px;
+  border-right: 2px solid #e74c3c;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: typing 3s steps(20, end), blink 0.6s step-end infinite;
+}
+
+/* Subtitle */
+.about-subtitle {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #7f8c8d;
+}
+
+/* Buttons and Social Links */
+.button-container {
+  margin-top: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  margin-right: 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+/* Keyframes for Animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .typewriter {
+    font-size: 1.5rem;
+  }
+
+  .about-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .button {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .typewriter {
+    font-size: 1.3rem;
+  }
+
+  .about-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .about-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+/* General Container Adjustments for Extra Small Screens */
+@media only screen and (max-width: 320px) {
+  .about-container {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .about-content {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .about-image-container {
+    margin: 0 auto 15px;
+    text-align: center;
+  }
+
+  .about-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .typewriter {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  .about-subtitle {
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+
+  .button-container {
+    margin-top: 20px;
+  }
+
+  .button {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    margin: 5px auto;
+    display: inline-block;
+  }
+}
