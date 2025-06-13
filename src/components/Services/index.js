@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
-import { FaCode, FaCrop } from "react-icons/fa";
-import { FaAppStore } from "react-icons/fa6";
+import { FaCode, FaDatabase, FaLaptopCode, FaTools } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -10,31 +9,45 @@ const Services = () => {
         <h1 className="sub-title">My Services</h1>
         <div className="services-list">
           <div className="service-item">
+            <FaLaptopCode className="service-icon" />
+            <h2>Full Stack Development</h2>
+            <p>
+              "I build complete web applications using frontend and backend
+              technologies. From designing responsive user interfaces with React
+              to managing server-side logic with Node.js, Express, and MongoDB,
+              I deliver scalable and secure solutions."
+            </p>
+          </div>
+
+          <div className="service-item">
+            <FaDatabase className="service-icon" />
+            <h2>Backend Development</h2>
+            <p>
+              "I design robust RESTful APIs and manage database interactions
+              using Node.js, Express, MySQL, and MongoDB. I focus on writing
+              clean, maintainable code with secure authentication and efficient
+              data handling."
+            </p>
+          </div>
+
+          <div className="service-item">
             <FaCode className="service-icon" />
-            <h2>Web Design</h2>
+            <h2>Frontend Development</h2>
             <p>
-              "I create visually appealing and user-friendly websites that work
-              seamlessly on all devices. My designs focus on modern, responsive
-              layouts that enhance user engagement. My goal is to turn ideas
-              into functional, eye-catching websites."
+              "I create responsive and interactive user interfaces using HTML,
+              CSS, JavaScript, React, and TypeScript. My goal is to deliver
+              seamless experiences with optimized performance across devices."
             </p>
           </div>
+
           <div className="service-item">
-            <FaCrop className="service-icon" />
-            <h2>UI/UX Design</h2>
+            <FaTools className="service-icon" />
+            <h2>Software Engineering</h2>
             <p>
-              "My UI/UX design approach centers on creating intuitive and
-              engaging user experiences. I design interfaces that guide users
-              smoothly and effectively, blending aesthetics with usability."
-            </p>
-          </div>
-          <div className="service-item">
-            <FaAppStore className="service-icon" />
-            <h2>App Design</h2>
-            <p>
-              "I design apps that prioritize user experience, combining
-              functionality with clean, appealing visuals. My focus is on
-              creating intuitive interfaces that enhance user interaction."
+              "With strong software engineering principles, I build scalable
+              systems and follow best practices in version control, testing, and
+              deployment. My focus is on clean architecture, modular design, and
+              long-term maintainability."
             </p>
           </div>
         </div>

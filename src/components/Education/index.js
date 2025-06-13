@@ -14,7 +14,7 @@ export const education = [
     img: "https://res.cloudinary.com/dpd55e6mf/image/upload/v1732687657/nannayyaimage_x1et4k.jpg",
     school: "Adikavi Nannaya University,Rajmahendravaram",
     date: "June 2018 - Decemeber 2021",
-    desc: "I completed Bachelor's degree in Chemistry  at G.B.R Degree College, Anaparthy. I have completed 6 semesters and have a CGPA of 8.12",
+    desc: "I completed Bachelor's degree in Chemistry  at G.B.R Degree College, Anaparthy.I have completed 6 semesters and have a CGPA of 8.12",
   },
   {
     id: 2,

@@ -40,6 +40,16 @@ export const skills = [
         image:
           "https://res.cloudinary.com/dpd55e6mf/image/upload/v1732689599/reacthooksimage_eyqond.png",
       },
+      {
+        name: "Redux",
+        image:
+          "https://res.cloudinary.com/dpd55e6mf/image/upload/v1749779074/reduximage_xm4mt7.png",
+      },
+      {
+        name: "Type Script",
+        image:
+          "https://res.cloudinary.com/dpd55e6mf/image/upload/v1749778753/typescript-icon_a4u45k.svg",
+      },
     ],
   },
   {
@@ -66,9 +76,19 @@ export const skills = [
           "https://res.cloudinary.com/dpd55e6mf/image/upload/v1732689903/sqliteimage_m2fwwe.webp",
       },
       {
+        name: "My Sql",
+        image:
+          "https://res.cloudinary.com/dpd55e6mf/image/upload/v1749779174/mysqlimage_qnifc3.png",
+      },
+      {
         name: "MongoDB",
         image:
           "https://res.cloudinary.com/dpd55e6mf/image/upload/v1732689735/mognodbimage_bonq4m.webp",
+      },
+      {
+        name: "AWS",
+        image:
+          "https://res.cloudinary.com/dpd55e6mf/image/upload/v1749779336/awsimage_hnxs76.png",
       },
     ],
   },
@@ -109,11 +129,6 @@ export const skills = [
         name: "Postman",
         image:
           "https://res.cloudinary.com/dpd55e6mf/image/upload/v1732689270/postmanimage_fi34sc.png",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://res.cloudinary.com/dpd55e6mf/image/upload/v1732689037/figmaimage_ypxj3l.png",
       },
     ],
   },
