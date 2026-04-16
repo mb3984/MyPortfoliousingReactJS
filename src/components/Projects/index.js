@@ -3,6 +3,31 @@ import "./index.css";
 export const projects = [
   {
     id: 0,
+    title: "MERN Stack E-Commerce Platform",
+    date: "2024",
+    description:
+      "Developed a scalable MERN e-commerce platform handling 20,000+ products with secure JWT-based authentication and RBAC for Admin and User workflows. Implemented server-side pagination to reduce API payloads by 80% and optimized search/sort using MongoDB Regex, improving frontend performance by 2x. Deployed a decoupled architecture using Vercel and Render with persistent state management via Context API.",
+    image:
+      "https://res.cloudinary.com/dpd55e6mf/image/upload/v1776337691/Screenshot_411_fsrnjl.png",
+    tags: [
+      "React JS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "RBAC",
+      "Pagination",
+      "Context API",
+      "REST API",
+      "Vercel",
+      "Render",
+    ],
+    category: "web app",
+    github: "https://github.com/mb3984/mernshoppingfrontend",
+    webapp: "https://mernshoppingfrontend.vercel.app/",
+  },
+  {
+    id: 1,
     title: "NxtTrendz",
     date: "Aug 2023 - Sep 2023",
     description:
@@ -26,21 +51,31 @@ export const projects = [
     webapp: "https://madhunxt.ccbp.tech/",
   },
   {
-    id: 1,
-    title: "IPL Dashboard",
-    date: "June 2023 - July 2023",
+    id: 2,
+    title: "Veg & Fruits MERN Shopping",
+    date: "2024",
     description:
-      "Built an interactive hub for IPL teams and matches information.Navigated seamlessly with React Router, presenting team details and matches with REST API calls.Included a custom 404 page for non-existent routes",
+      "Engineered a full-stack MERN shopping platform handling 20,000+ products with optimized MongoDB queries and server-side pagination to improve load time by 60%. Implemented persistent cart and order workflows using Context API and Local Storage. Built an admin dashboard for CRUD operations, stock tracking, and role-based access control. Deployed securely on Vercel and Render.",
     image:
-      "https://res.cloudinary.com/dpd55e6mf/image/upload/v1732775599/ipldashboardimage_dfdidn.png",
-    tags: ["React JS", "JS", "CSS", "Bootstrap", "Routing", "REST API Calls"],
+      "https://res.cloudinary.com/dpd55e6mf/image/upload/v1776338005/Screenshot_436_ia77ue.png",
+    tags: [
+      "React JS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "RBAC",
+      "Pagination",
+      "Context API",
+      "Local Storage",
+      "Admin Dashboard",
+    ],
     category: "web app",
-    github:
-      "https://github.com/mb3984/IPL-Dashboard-assignment-4-Nxtwave-ReactJS",
-    webapp: "https://madhuipldashb.ccbp.tech/",
+    github: "https://github.com/mb3984/mernvegfruitsfrontend",
+    webapp: "https://mernvegfruitsfrontend.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Mern Stack Login App",
     date: "June 2024 - July 2024",
     description:
@@ -66,7 +101,7 @@ export const projects = [
     webapp: "https://frontendmadhuloginproject.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Mern Stack Todo App",
     date: "Nov 2024 - Dec 2024",
     description:
@@ -89,7 +124,7 @@ export const projects = [
     webapp: "https://mern-stack-frontend-todo-app.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Todo App",
     date: "Feb 2023 - Feb 2023",
     description:
@@ -100,19 +135,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/mb3984/dynamictodoapp",
     webapp: "https://madhutodoappl.ccbp.tech/",
-  },
-  {
-    id: 5,
-    title: "Food Munch",
-    date: "Nov 2022 - Dec 2022",
-    description:
-      "Food Munch is a restaurant app designed to offer auser-friendly interface for browsing menus, placing orders,and tracking deliveries. Built with a responsive design, it features a seamless ordering process and secure payment options.",
-    image:
-      "https://res.cloudinary.com/dpd55e6mf/image/upload/v1732775459/Screenshot_189_wzmwyx.png",
-    tags: ["HTML", "JS", "CSS", "Bootstrap", "Local Storage"],
-    category: "web app",
-    github: "https://github.com/mb3984/staticfoodmunch",
-    webapp: "https://madhubfoodmun.ccbp.tech/",
   },
   {
     id: 6,
