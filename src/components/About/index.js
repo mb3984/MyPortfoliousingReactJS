@@ -14,7 +14,7 @@ const About = () => {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     resume:
-      "https://drive.google.com/file/d/1_eHhIhm9k44Hzc4-E32WK2kAIDCIfZ8_/view?usp=sharingg",
+      "https://drive.google.com/file/d/1GHepVsjCqxpZZ93-2X0EGcJowHN2tFkT/view?usp=sharing",
     github: "https://github.com/mb3984",
     linkedin: "https://www.linkedin.com/feed/",
     image: "https://via.placeholder.com/300", // Replace with your actual image URL
